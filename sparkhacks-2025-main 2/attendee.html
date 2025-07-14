@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Events</title>
+    <link rel="stylesheet" href="attendee.css">  <!-- Link to external CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-and-name">
+            <a class="main-link" href="index.html"><img class="logo" src="src/logo.png"> </a>
+        </div>
+    
+        <div class="sub-links">
+            <a class="small-links" href="hostevent.html">Host</a>
+            <a class="small-links" href="vendorfacing.html">Vend</a>
+            <a class="small-links" href="attendee.html">Community</a>
+            <a class="small-links" href="about.html">About</a>
+        </div>
+    </nav>
+
+    <input type="text" id="searchbar" placeholder=" Search..." style="width: 975px" >
+  
+    
+    <div class="button-container">
+        <button data-filter="food">Food</button>
+        <button data-filter="jewelry">Jewelry</button>
+        <button data-filter="art">Art</button>
+        <button data-filter="fashion">Fashion</button>
+    </div>
+
+    <div class="card-container">
+
+        <div class="flip-card" data-category="food">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id= "photo" src="https://www.marmaladegrove.com/cdn/shop/files/MarmaladeGrove_PartyOfSix_8f8ff5fa-b3b4-449e-9fc8-9757984ce135_2000x2000.jpg?v=1700012860" alt="Exotic jams">  
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Rajvi's Jam</p>
+                    <p class="content"><b>Pop Up Location: </b>1010 N Timely St</p>
+                    <p class="content"><b>Date: </b>Feb 12</p>
+                    <p class="content"><b>Time: </b>9am-2pm</p>
+                    <p class="content">Rajvi's makes organic and homemade jam straight from her farm in California.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="jewelry">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://m.media-amazon.com/images/I/51YKImm-CGL._AC_UY300_.jpg" alt="earrings">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Rasleen Rarity</p>
+                    <p><b>Pop Up Location: </b>2058 S Flower Ave</p>
+                    <p><b>Date: </b>Mar 01</p>
+                    <p><b>Time: </b>12pm-4pm</p>
+                    <p>Aesthetic handmade earrings inspired by the beauty of nature.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="food">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://image.made-in-china.com/202f0j00NtfkgczhaVol/Ball-Shaped-Hard-Candy-Watermelon-Hard-Candy-for-EU-Maket.webp" alt="candy">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Kyla's Kandy</p>
+                    <p><b>Pop Up Location: </b>1872 W Eren Ave</p>
+                    <p><b>Date: </b>Mar 07</p>
+                    <p><b>Time: </b>12pm-4pm</p>
+                    <p>Handpulled hard candy. Experiencing beauty and taste with every bite.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="art">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://static.wixstatic.com/media/bbd6f8_0b90d31bcabe4d84b826e973af19061e~mv2.png/v1/fill/w_980,h_621,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/bbd6f8_0b90d31bcabe4d84b826e973af19061e~mv2.png" alt="candy">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Louman Art</p>
+                    <p><b>Insta: </b>@luoman_art</p>
+                    <p><b>Pop Up Location: </b>3756 E Amazely Blvd</p>
+                    <p><b>Date: </b>Dec 12</p>
+                    <p><b>Time: </b>12pm-5pm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="fashion">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://images.squarespace-cdn.com/content/v1/622ffababc627a0bc779867b/1650911977998-US2XMOFB3TIO7A5J1PJD/edith%2B6.jpg?format=1000w" alt="crochet">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Jenny's Joys</p>
+                    <p><b>Pop Up Location: </b>8888 N Golden St</p>
+                    <p><b>Date: </b>Jun 28</p>
+                    <p><b>Time: </b>12pm-5pm</p>
+                    <p>Hand crochet pieces. Wearable art.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="food">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://thevoicemagazine.org/wp-content/uploads/2021/10/thevoicemagazine_eat-honey.jpg" alt="honey">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">My Honey</p>
+                    <p><b>Pop Up Location: </b>1155 S Bizz Ave</p>
+                    <p><b>Date: </b>Apr 27</p>
+                    <p><b>Time: </b>9am-12pm</p>
+                    <p>Ethically source honey straight from the bees!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="art">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkVQHQT01tU2Ew1FA3Gc7V0sP3YTAFMdd4GA&s" alt="ootmel">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Ootmel</p>
+                    <p><b>Insta: </b>@ootmel</p>
+                    <p><b>Pop Up Location: </b>5678 E Waze Blvd</p>
+                    <p><b>Date: </b>Aug 08</p>
+                    <p><b>Time: </b>12pm-4pm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="fashion">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://i.etsystatic.com/5538429/r/il/69ee97/3625086822/il_1588xN.3625086822_ipun.jpg" alt="purse">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Eman's Accessories</p>
+                    <p><b>Pop Up Location: </b>7867 N Glen Ave</p>
+                    <p><b>Date: </b>Apr 12</p>
+                    <p><b>Time: </b>12-4pm</p>
+                    <p>Beautiful handmade leather goods.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="fashion">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://i.etsystatic.com/13651661/r/il/cf351e/3247915488/il_570xN.3247915488_ea8c.jpg" alt="hair clip">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Bella Beauty</p>
+                    <p><b>Pop Up Location: </b>5650 N Vive St</p>
+                    <p><b>Date: </b>Feb 01</p>
+                    <p><b>Time: </b>12-4pm</p>
+                    <p>Resin flower hair clips and Accessories.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card" data-category="art">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="photo" src="https://shuffledink.com/wp-content/uploads/2022/11/DegenPCD.jpg" alt="hair clip">
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Kristine's Kards</p>
+                    <p><b>Pop Up Location: </b>5977 N Water Ave</p>
+                    <p><b>Date: </b>Mar 25</p>
+                    <p><b>Time: </b>12-4pm</p>
+                    <p>Custom card deck of you dreams.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="logo-and-name">
+            <a href="index.html"><img class="logo2" src="src/logo.png"></a>
+        </div>
+
+        <nav class="footer-links">
+            <a class="footerlink" href="index.html">Home</a>
+            <a class="footerlink" href="hostevent.html">Host a Market</a>
+            <a class="footerlink" href="vendorfacing.html">Sign up to Vend</a>
+            <a class="footerlink" href="attendee.html">Find a Market to Shop</a>
+        </nav>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".button-container button");
+            const cards = document.querySelectorAll(".flip-card");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const filter = this.getAttribute("data-filter");
+
+                    cards.forEach(card => {
+                        const category = card.getAttribute("data-category");
+
+                        if (filter === "all" || category === filter) {
+                            card.style.display = "flex";  // Show matching cards
+                        } else {
+                            card.style.display = "none"; // Hide non-matching cards
+                        }
+                    });
+                });
+            });
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const searchInput = document.getElementById("searchbar");
+            const cards = document.querySelectorAll(".flip-card");
+    
+            searchInput.addEventListener("input", function () {
+                const query = searchInput.value.toLowerCase().trim(); 
+    
+                cards.forEach(card => {
+                    const cardText = card.innerText.toLowerCase(); 
+    
+                    if (cardText.includes(query)) {
+                        card.style.display = "flex"; 
+                    } else {
+                        card.style.display = "none"; 
+                    }
+                });
+            });
+        });
+     
+        
+
+    </script>
+
+    
+</body>
+</html>
