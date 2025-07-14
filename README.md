@@ -15,5 +15,6 @@ GroundUp Coffee, on the other hand, is a local coffee shop that wants to build a
 
 Enter Popup Connect: an all in one web application serving the business needs of sellers like Jane and businesses like Gathers, but also alerting community members to these events, increasing foot traffic.
 
-Contributors
+Contributors:
+
 Rajvi Shah, Eman Arsham, Rasleen Dhaliwal, Kristine Ma, Kyla Gonzalez
